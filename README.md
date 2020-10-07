@@ -10,9 +10,9 @@ the doctors. They also can see the booked peoples. The project helps the user to
 
 software requirements
 
-android-studio-ide
-AdbDriverInstaller
-jdk
-netbeans
-wampserver
+android-studio-ide, 
+AdbDriverInstaller, 
+jdk, 
+netbeans, 
+wampserver, 
 Mysql
