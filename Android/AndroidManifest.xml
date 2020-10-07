@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mptc.doctor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mptc.doctor.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.RegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.mptc.doctor.GeoLocationActivity" >
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.HospitalSearchAvtivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.ClinicSearchAvtivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.HospitalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.DoctorsListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.mptc.doctor.ContactViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.mptc.doctor.ClinicActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name="com.mptc.doctor.ShowBookings"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.mptc.doctor.BloodSearchAvtivity"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name="com.mptc.doctor.BloodActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.mptc.doctor.MedicalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mptc.doctor.MedicalSearchAvtivity"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name="com.mptc.doctor.BookShowActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    
+ 
+    </application>
+
+</manifest>

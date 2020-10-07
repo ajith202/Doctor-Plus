@@ -1,0 +1,323 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300);
+body{background: url('../images/home_background.jpg')fixed no-repeat;
+     overflow: hidden;
+     background-size: cover;
+     font-family: 'Raleway', sans-serif;}
+
+
+.text-field{
+    border: #268cd1 1px solid;
+    height: 40px;
+    width: 300px;
+    padding: 0 0 0 0;
+    position: relative;
+    left: 90px;} 
+.text-field > input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: transparent;}
+.login_btn{
+    float: left;
+    width: 150px;
+    color: #fafafa;
+    height: 50px;
+    background-color: #268cd1;
+    position: relative;
+    left: 75px;
+    border: #268cd1 1px solid;
+    transition: all 1s ease;}
+
+.signup_btn{
+    float: left;
+    width: 150px;
+    height: 50px;
+    color: #fafafa;
+    background-color: #00b6ea;
+    position: relative;
+    left: 80px;
+    border: #00b6ea 1px solid;
+    transition: all 1s ease;}
+
+
+.buttons{
+    height: 40px;
+    padding: 0 0 0 0;
+    position: relative;
+    left: 15px;
+    margin-top: 30px
+}
+
+.buttons > button {border: none !important;outline: none !important;}
+.buttons .login_btn > h4{font-family: 'Raleway', sans-serif !important;font-weight: 200 !important;margin-top: 10px;  }
+.buttons .signup_btn > h4{font-family: 'Raleway', sans-serif !important;font-weight: 200 !important;margin-top: 10px;  }
+
+.login_btn:hover{
+    transition: all 1s ease;
+    background-color: #fafafa;
+    color: #268cd1;
+    border: #268cd1 1px solid !important;
+}
+.ok_btn{
+    background-color: #268cd1;
+    transition: color 0.4s ease;
+    color: #fafafa;
+   outline: none;
+   border: none;
+}
+.ok_btn:hover{
+/*    background-color: #fafafa;
+    color: #268cd1;*/
+}
+.signup_btn:hover{
+    transition:  all 1s ease;
+    background-color: #fafafa;
+    color: #00b6ea;
+    border: #00b6ea 1px solid !important;
+}
+
+
+.logo_add_btn{
+    width: 100%;
+    height: 100%;
+    padding: 0 80px;
+    background-color: #fafafa;
+    border: #268cd1 1px solid;
+border-radius: 6px;
+    transition:  all 1s ease;
+
+    color: #268cd1 !important;
+}
+
+.logo_add_btn > h5 {
+    font-family: 'Raleway',sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px;
+    line-height: 150px;
+}
+.logo_add_btn:hover {
+    content: 'ADD';
+    background-color: #268cd1;
+    color: #fafafa !important;
+    cursor: pointer;
+}
+
+.navigation_head{
+    padding: 20px 0;
+}
+.navigation_head .logo{
+    height: 80px;
+    /*    margin: 0 auto;*/
+}
+.content_wraper{
+    margin: 10px 0;
+    background: rgb(255, 255, 255);
+    background: transparent;
+    background: rgba(255, 255, 255, 0.7); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fFFFFFF,endColorstr=#7fFFFFFF);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fFFFFFF,endColorstr=#7fFFFFFF)";
+    zoom: 1;
+    border-radius: 6px;
+    padding: 10px;
+
+}
+.signup_form{
+
+}
+.signup_form .input-group{margin: 10px 5px;}
+.signup_form .input-group .input-group-addon{min-width: 150px;}
+.signup_form .row{
+    margin: 0;
+}
+.map_view{
+    width: 100%;
+    height: 450px;
+    background: navy;
+}
+#signupCategoryChooseModal .modal-body .row div{
+ margin: 10px 0;
+    height: 150px;
+}
+#signupCategoryChooseModal .modal-body .row div button{
+   height: 100%;
+   width: 100%;
+   font-size: 16px;
+   color: #f5f5f5;
+   outline: none;
+   border: none;
+   border-radius: 6px; 
+  
+}
+.signup_form input[type=file]{
+    display: none;
+}
+.signup_option_item[data-value=hospital]{  
+    background: #8e44ad;
+}
+.signup_option_item[data-value=clinic]{   
+    background: #f1c40f;
+}
+.signup_option_item[data-value=blood_bank]{  
+    background: #e74c3c;
+}
+.signup_option_item[data-value=medical_shop]{   
+    background: #27ae60;
+}
+#locationSelectModal .modal-content,#locationSelectModal .modal-body,#locationSelectModal .modal-header,#locationSelectModal .modal-footer{
+    padding: 1px;
+}
+#locationSelectModal .modal-header input[type=text]{
+    width: 100%;
+   padding: 10px 20;
+   outline: none;
+   border: none;
+   font-size: 16px;
+    
+}
+#locationSelectModal .modal-footer button{
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #f5f5f5;
+    background: #268cd1;
+}
+
+.account-controls span{
+    line-height: 60px;
+font-size: 30px;
+float: right;
+margin: 0 0 0 25px;
+}
+.account-controls span:hover{
+color: #E74C3C;
+}
+
+.profile_con{
+    position: relative;
+}
+.profile_con img{border-radius: 50%;}
+.profile_con h4{
+    position: relative;
+   left: 20px;
+   line-height: 100px;
+   font-size: 25px;
+   text-transform: capitalize;
+}
+.doctors_con{
+    padding: 10px;
+    margin-top: 30px;
+}
+.doctors_con h4{
+       font-size: 25px;
+}
+.doctors_con .doctors_list_item{
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	width: 100%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+        margin: 10px 0;
+}
+.doctors_con .doctors_list_item .doc_photo{
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.doctors_list_item .doc_name{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.doctors_list_item .doc_qualification{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.doctors_list_item .doc_department{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.doctor_add_btn{
+    margin-top: -18px;
+    margin-right: 20px;
+    background: #2980b9;
+    border-radius: 100%;
+    padding: 10px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.doctor_add_form{
+    
+}
+.doctor_add_form .input-group{
+    margin: 10px 0;
+}
+.doctor_add_form .input-group-addon{
+    min-width: 150px;
+}
+#doctorAddModel .modal-header{
+    text-align: center;
+    font-size: 26px;
+}
+#doctorAddModel .modal-body .input-group-addon{
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   border-left:10px #268cd1 solid;
+color:#555;background-color:#fff;
+background-image:none;border:1px solid #ccc;
+-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+#doctorAddModel .modal-body .form-control{
+   border-left: #ccc;
+}
+.bookings_table{
+    
+}
+.bookings_table tr td{
+    padding: 10px;
+}
+.booking_controls{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.remove{
+    color: red;
+}
+.ok{
+    color: green;
+}
+/*-------------image crop-----------*/
+#crop_mdl,#crop_mdl .modal-body,#crop_mdl .modal-content{
+    padding: 2px 0;
+    margin: 0;
+    
+}
+/*----------------------------------*/
+/*-----------google maps------------*/
+.pac-container{
+    z-index: 9999;
+}
+/*-----------------------------------*/

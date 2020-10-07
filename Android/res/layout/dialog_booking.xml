@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#25ae5e" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+ <TextView
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     android:gravity="center_vertical|center_horizontal"
+     android:text="Avilable @"
+     android:textColor="#f5f5f5"
+     android:textSize="26dp" />
+
+ <TextView
+     android:id="@+id/book_time_show"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"
+     android:gravity="center_vertical|center_horizontal"
+     android:text="10:30 AM"
+     android:textColor="#f5f5f5"
+     android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/book_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#f5f5f5"
+        android:text="Book Now"
+        
+        android:textColor="#25ae5e" />
+
+</LinearLayout>

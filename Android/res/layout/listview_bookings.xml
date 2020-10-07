@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="#262626"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:paddingLeft="30dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/listview_booking_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/tmp_menu_red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/listview_booking_hospital_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Mago Hospital"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#f5f5f5"
+            android:textSize="18sp" />
+  <TextView
+            android:id="@+id/listview_booking_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Dr.Prasanth"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#f5f5f5"
+            android:textSize="16sp" />
+     <TextView
+            android:id="@+id/listview_booking_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Dr.Prasanth"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#f5f5f5"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/listview_booking_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="10 - 11 AM"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#f5f5f5"
+            android:textSize="16sp" />
+
+      
+     
+    </LinearLayout>
+
+</LinearLayout>
